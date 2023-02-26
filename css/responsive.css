@@ -1,0 +1,90 @@
+/* media */
+/* min 991 */
+@media screen and (min-width: 991px) {
+    .home-search{
+        margin-top: 65px;
+    }   
+    .pb-lg-60{
+        padding-bottom: 60px;
+    } 
+}
+@media screen and (max-width: 991px) {
+    #homewellMenu{
+        z-index: 999;
+        background-color: #ffff;
+        padding: 20px 25px;
+    }
+    .help-card{
+        margin-bottom: 25px;
+    }
+    .mb-sm-25{
+        margin-bottom: 25px !important;
+    }
+    .home-well-tagline{
+        padding: 20px 0px 20px 0px;
+    }
+    .ex-img-section img{
+        width: 100%;
+    }
+   
+    
+}
+@media screen and (max-width: 768px) {
+    .nav-item{
+        padding-left: 0px !important;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .mt-sm-30{
+        margin-top: 30px;
+    }
+    .owl-carousel, .owl-stage-outer, .owl-item, .item, .item .banner-img{
+        height: 70vh !important;
+    }
+    .banner-text{
+        top: 10%;
+        padding-right: 15px;
+    }
+    .banner-text .banner-title{
+        font-size: 36px;
+    }
+    .home-search input{
+        padding: 15px 14px;
+        width: 70%;
+    }
+    .search-btn{
+        width: 30% !important;
+    }
+    .home-well-nav{
+        height: 75px;
+    }
+    .logo{
+        width: 170px;
+        height: 75px;
+    }
+    .home-testimonial .owl-dots{
+        display: none !important;
+    }
+}
+@media screen and (min-width: 1367px) {
+    .container {
+        max-width: 1400px;
+    }
+
+}
+@media screen and (max-width: 1300px ) {
+    .side-img{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 1300px) and (max-width: 1367px) {
+    .container {
+        max-width: 1300px;
+    }
+
+    .mt-40 {
+        margin-top: 74px !important;
+    }
+}
